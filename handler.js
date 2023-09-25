@@ -282,27 +282,27 @@ export async function handler(chatUpdate) {
                 if (!('detect' in chat))
                     chat.detect = false
                 if (!('sWelcome' in chat))
-                    chat.sWelcome = ''
+                    chat.sWelcome = 'true'
                 if (!('sBye' in chat))
-                    chat.sBye = ''
+                    chat.sBye = 'true'
                 if (!('sPromote' in chat))
-                    chat.sPromote = ''
+                    chat.sPromote = 'true'
                 if (!('sDemote' in chat))
-                    chat.sDemote = ''
+                    chat.sDemote = 'true'
                 if (!('delete' in chat))
                     chat.delete = true
                 if (!('antiLink' in chat))
                     chat.antiLink = false
                 if (!('viewonce' in chat))
-                    chat.viewonce = false
+                    chat.viewonce = true 
                 if (!('antiToxic' in chat))
                     chat.antiToxic = false
                 if (!('simi' in chat))
                     chat.simi = false
                 if (!('autosticker' in chat))
-                    chat.autosticker = false
+                    chat.autosticker = true
                 if (!('premium' in chat))
-                    chat.premium = false
+                    chat.premium = true 
                  if (!('onlyenglish' in chat))
                     chat.onlyLatinos = false
                 if (!('premiumTime' in chat)) 
@@ -316,10 +316,10 @@ export async function handler(chatUpdate) {
                     isBanned: false,
                     welcome: true,
                     detect: false,
-                    sWelcome: '',
-                    sBye: '',
-                    sPromote: '',
-                    sDemote: '',
+                    sWelcome: 'true',
+                    sBye: 'true',
+                    sPromote: 'true',
+                    sDemote: 'true',
                     delete: true,
                     antiLink: false,
                     viewonce: false,
@@ -327,7 +327,7 @@ export async function handler(chatUpdate) {
                     simi: false,
                     expired: 0,
                     onlyenglish: false,
-                    autosticker: false,
+                    autosticker: true,
                     premium: false,
 	            premiumTime: false,
                     premnsfw: false, 
@@ -335,14 +335,14 @@ export async function handler(chatUpdate) {
             let settings = global.db.data.settings[this.user.jid]
             if (typeof settings !== 'object') global.db.data.settings[this.user.jid] = {}
             if (settings) {
-                if (!('self' in settings)) settings.self = false
-                if (!('autoread' in settings)) settings.autoread = false
-                if (!('restrict' in settings)) settings.restrict = false
+                if (!('self' in settings)) settings.self = true
+                if (!('autoread' in settings)) settings.autoread = true
+                if (!('restrict' in settings)) settings.restrict = true
                 if (!('anticall' in settings)) settings.anticall = true
                 if (!('autorestart' in settings)) settings.autorestart = false
                 if (!('restartDB' in settings)) settings.restartDB = 0
             } else global.db.data.settings[this.user.jid] = {
-                self: false,
+                self: true,
                 autoread: false,
                 autorestart: false,
                 anticall: true,
@@ -809,7 +809,7 @@ export async function deleteUpdate(message) {
             return 
             await this.reply(msg.chat, `
 ≡  💝 Queen Hentai 💝 WA BOT deleted a message.
-┌─⊷ 🇱🇰 𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀 🇱🇰
+┌─⊷ 🔰 𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀 ⛔
 🩸 *Number :* @${participant.split`@`[0]} 🩸
 └─────────────
 🩸TO DEACTIVE , PRESS 🩸
@@ -826,8 +826,8 @@ export async function deleteUpdate(message) {
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: '*ᴏɴʟʏ 💝 Queen Hentai 💝 ᴅᴇᴠᴇʟᴏᴘᴇʀ* • 🇱🇰 This command can only be used by the *Creator of 💝 Dinuwa Official²⁰²³ 💝*',
-        owner: '*ᴏɴʟʏ 💝 Queen Hentai 💝 ᴏᴡɴᴇʀ* • 🇱🇰 This command can only be used by the *Bot Owner 💝 Dinuwa Official²⁰²³ 💝',
+        rowner: '*ᴏɴʟʏ 💝 Queen Hentai 💝 ᴅᴇᴠᴇʟᴏᴘᴇʀ* • 🇱🇰 This command can only be used by the *Creator of 💝 ᗰᖇ.𝙎𝙄𝙏𝙃𝙐𝙈 𝙀𝙎𝙃𝘼𝙉꧁꧂ 💝*',
+        owner: '*ᴏɴʟʏ 💝 Queen Hentai 💝 ᴏᴡɴᴇʀ* • 🇱🇰 This command can only be used by the *Bot Owner 💝 ᗰᖇ.𝙎𝙄𝙏𝙃𝙐𝙈 𝙀𝙎𝙃𝘼𝙉꧁꧂ 💝',
         mods: '*ᴏɴʟʏ 💝 Queen Hentai 💝 ᴍᴏᴅᴇʀᴀᴛᴏʀ* •🇱🇰 This function is only for *For 💝 Queen Hentai 💝 Bot moderators*',
         premium: '*ᴏɴʟʏ 💝 Queen Hentai 💝 ᴘʀᴇᴍɪᴜᴍ User* • 🇱🇰 This command is for *💝 Queen Hentai 💝 Premium members only',
         group: '*💝 Queen Hentai 💝 ɢʀᴏᴜᴘ ᴄʜᴀᴛ* • 🇱🇰 This command can only be used in 💝 Queen Hentai 💝 groups',

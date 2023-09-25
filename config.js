@@ -7,8 +7,8 @@ import axios from 'axios'
 
 
 global.owner = [
-  ['94740804536', 'Dinuwa Official²⁰²³', true],
-  ['94740804536', 'Dinuwa Official²⁰²³', true], 
+  ['94741868472', 'ᗰᖇ.𝙎𝙄𝙏𝙃𝙐𝙈 𝙀𝙎𝙃𝘼𝙉꧁꧂', true],
+  ['94763406787', '⃞៚ 𝙎𝙄𝙏𝙃𝙐𝙈  𝙀𝙎𝙃𝘼𝙉꧁꧂', true], 
   [''] 
 ] //Number of owners
 
@@ -49,22 +49,22 @@ global.APIKeys = { // APIKey Here
 // Sticker WM
 global.botname = '💝 Queen Hentai 💝'
 global.premium = 'true'
-global.packname = '💝 Queen Hentai 💝 Created By 💝 Dinuwa Official²⁰²³ 💝' 
-global.author = '💝 Dinuwa Official²⁰²³ 💝' 
-global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/Dinuwa Official²⁰²³\n' 
-global.dygp = 'https://chat.whatsapp.com/Jyjqx7KBfgjDC7QcefHB1S'
+global.packname = '💝 Queen Hentai 💝 Created By 💝 ᗰᖇ.𝙎𝙄𝙏𝙃𝙐𝙈 𝙀𝙎𝙃𝘼𝙉꧁꧂ 💝' 
+global.author = '💝 ᗰᖇ.𝙎𝙄𝙏𝙃𝙐𝙈 𝙀𝙎𝙃𝘼𝙉꧁꧂ 💝' 
+global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/mrsithum' 
+global.dygp = 'https://chat.whatsapp.com/DECsQtFPs7k4FI2qdPbiyb'
 global.fgsc = 'https://github.com/dinuwah/QUEEN-HENTAI' 
-global.fgyt = 'https://chat.whatsapp.com/Jyjqx7KBfgjDC7QcefHB1S'
-global.fgpyp = 'https://chat.whatsapp.com/Jyjqx7KBfgjDC7QcefHB1S'
+global.fgyt = 'https://chat.whatsapp.com/LAbinJusV8F79ZPBwcN82k'
+global.fgpyp = 'https://chat.whatsapp.com/KDC7lCHa6GC6VVLIsaTuKL'
 global.fglog = 'https://i.ibb.co/T1DqdYz/thumbnail.jpg' 
 
 
 global.wait = '*💝 _Waiting Bro Uploading by 💝 Queen Hentai 💝..._*'
-global.rwait = '🇱🇰'
+global.rwait = '♉'
 global.dmoji = '🤣'
 global.done = '👍'
 global.error = '👎' 
-global.xmoji = '🫶' 
+global.xmoji = '📍' 
 
 global.multiplier = 69 
 global.maxwarn = '3' // máxima advertencias
